@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "90a230cda176fc28",
+    "type": "split",
+    "children": [
+      {
+        "id": "70c075c2c7dd4c3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa9f9fce5ed4485e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/Product and Summation notation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Product and Summation notation"
+            }
+          },
+          {
+            "id": "f3d4e8debbae0e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/Vector Algebra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector Algebra"
+            }
+          },
+          {
+            "id": "4d99a63e552e45fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/Planes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planes"
+            }
+          },
+          {
+            "id": "93c0ae1b2f0bce48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/Planes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planes"
+            }
+          },
+          {
+            "id": "6a06d06c57bc039c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/PDF of a gaussian.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PDF of a gaussian"
+            }
+          },
+          {
+            "id": "ecf26528b23f03ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 0/Vector Algebra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector Algebra"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27a8e39683dc4b79",
+    "type": "split",
+    "children": [
+      {
+        "id": "15e67b24daaff98e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb0858a8e3fff4e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1a713f2d7520bc4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "376190a6f0d17d26",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c9d6d4eb1dbda15",
+    "type": "split",
+    "children": [
+      {
+        "id": "2892e88be0813f88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5503b99afa4184df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unit 0/Probability concepts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Probability concepts"
+            }
+          },
+          {
+            "id": "42e4b6528125dd6c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Unit 0/Probability concepts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Probability concepts"
+            }
+          },
+          {
+            "id": "9d9d82b33b710e51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6197a255ad8526ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unit 0/Probability concepts.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Probability concepts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ecf26528b23f03ed",
+  "lastOpenFiles": [
+    "Unit 0/Product and Summation notation.md",
+    "Unit 0/Planes.md",
+    "Unit 0/Vector Algebra.md",
+    "Unit 0/Matrix products.md",
+    "Unit 0/PDF of a gaussian.md",
+    "Unit 0/Probability concepts.md",
+    "Unit 0"
+  ]
+}
