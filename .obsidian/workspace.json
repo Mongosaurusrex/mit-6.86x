@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unit 1/Lecture 2. Linear Classifier and Perceptron.md",
+                "file": "Unit 2/Lecture 7. Recommender Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2. Linear Classifier and Perceptron"
+              "title": "Lecture 7. Recommender Systems"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -162,37 +163,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa9f9fce5ed4485e",
+  "active": "fb0858a8e3fff4e7",
   "lastOpenFiles": [
+    "Unit 2/Lecture 5. Linear Regression.md",
+    "Unit 2/Lecture 7. Recommender Systems.md",
+    "Unit 0/Vector Algebra.md",
+    "Unit 0/Matrix products.md",
+    "Unit 2/Lecture 6. Nonlinear Classification.md",
+    "Images/Pasted image 20250224163016.png",
+    "Images/Pasted image 20250222135328.png",
+    "Images/Pasted image 20250224162205.png",
+    "Images/Pasted image 20250224160825.png",
+    "Images/Pasted image 20250222135511.png",
+    "Images/Pasted image 20250222135332.png",
+    "Images/Pasted image 20250222133315.png",
+    "Images/Pasted image 20250222133421.png",
+    "Images/Pasted image 20250222132018.png",
+    "Images/Pasted image 20250222133119.png",
+    "Unit 1/Lecture 2. Linear Classifier and Perceptron.md",
+    "Unit 2",
     "Unit 1/Lecture 3. Hinge loss, Margin boundaries and Regularization.md",
     "Unit 1/Lecture 4. Linear classification and Generalisation.md",
     "Unit 0/PDF of a gaussian.md",
     "Unit 0/Planes.md",
-    "Unit 1/Lecture 2. Linear Classifier and Perceptron.md",
     "Homework helpers/perceptron.ipynb",
     "Homework helpers/perceptron.py",
     "Homework helpers",
     "Unit 1/Lecture 1. Introduction to machine learning.md",
     "Unit 0/Probability concepts.md",
-    "Images/Pasted image 20250205083851.png",
-    "Images/Pasted image 20250204162937.png",
-    "Images/Pasted image 20250205083736.png",
-    "Images/Pasted image 20250204162945.png",
-    "Images/Pasted image 20250204081920.png",
-    "Unit 0/Vector Algebra.md",
     "Projects/project0/debug.py~",
     "Projects/project0/main.py~",
     "Projects/project0/test.py",
     "Projects/project0/test.pyy",
     "Projects/requirements.txt",
     "requirements.txt",
-    "Projects/project0/test.py’.bak’",
-    "Images/Pasted image 20250203093749.png",
-    "Images/Pasted image 20250203095636.png",
-    "Pasted image 20250203101224.png",
-    "Images/Pasted image 20250203101229.png",
-    "Images/Pasted image 20250201200735.png",
-    "Unit 0/Product and Summation notation.md",
-    "Unit 0/Matrix products.md"
+    "Unit 0/Product and Summation notation.md"
   ]
 }
