@@ -1,17 +1,21 @@
 #! /usr/bin/env python
 
-import _pickle as c_pickle, gzip
+import gzip
+import sys
+
+import _pickle as c_pickle
 import numpy as np
-from tqdm import tqdm
 import torch
 import torch.autograd as autograd
-import torch.nn.functional as F
 import torch.nn as nn
-import sys
+import torch.nn.functional as F
+from tqdm import tqdm
+
 sys.path.append("..")
 import utils
+from train_utils import Flatten, batchify_data, run_epoch, train_model
 from utils import *
-from train_utils import batchify_data, run_epoch, train_model, Flatten
+
 
 def main():
     # Load the dataset
@@ -39,14 +43,20 @@ def main():
     train_batches = batchify_data(X_train, y_train, batch_size)
     dev_batches = batchify_data(X_dev, y_dev, batch_size)
     test_batches = batchify_data(X_test, y_test, batch_size)
-
     #################################
-    ## Model specification TODO
+    ## Model specification 
     model = nn.Sequential(
-              nn.Conv2d(1, 32, (3, 3)),
-              nn.ReLU(),
-              nn.MaxPool2d((2, 2)),
-            )
+        nn.Conv2d(1, 32, (3, 3)),
+        nn.ReLU(),
+        nn.MaxPool2d((2, 2)),
+        nn.Conv2d(32, 64, (3, 3)),  
+        nn.ReLU(),
+        nn.MaxPool2d((2, 2)),
+        nn.Flatten(),
+        nn.Linear(1600, 128),  
+        nn.Dropout(0.5),
+        nn.Linear(128, 10)
+    )
     ##################################
 
     train_model(train_batches, dev_batches, model, nesterov=True)
@@ -54,10 +64,10 @@ def main():
     ## Evaluate the model on test data
     loss, accuracy = run_epoch(test_batches, model.eval(), None)
 
-    print ("Loss on test set:"  + str(loss) + " Accuracy on test set: " + str(accuracy))
+    print("Loss on test set:" + str(loss) + " Accuracy on test set: " + str(accuracy))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Specify seed for deterministic behavior, then shuffle. Do not change seed for official submissions to edx
     np.random.seed(12321)  # for reproducibility
     torch.manual_seed(12321)

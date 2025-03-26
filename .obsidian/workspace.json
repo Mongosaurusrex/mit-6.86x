@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unit 3/Lecture 11. Recurrent Neural Networks 2.md",
+                "file": "Unit 2/Lecture 7. Recommender Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 11. Recurrent Neural Networks 2"
+              "title": "Lecture 7. Recommender Systems"
             }
           }
         ],
@@ -178,10 +178,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb0858a8e3fff4e7",
+  "active": "cf813fec830e969d",
   "lastOpenFiles": [
-    "Images/Pasted image 20250308162911.png",
+    "Unit 3/Lecture 12. Convolutional Neural Networks.md",
+    "Untitled",
+    "Projects/project2n3/part2-twodigit/mnist_model_fully_connected.pt",
+    "Projects/project2n3/part2-twodigit/mlp.py~",
+    "Projects/project2n3/part2-twodigit/__pycache__/utils_multiMNIST.cpython-311.pyc",
+    "Projects/project2n3/part2-twodigit/__pycache__/train_utils.cpython-311.pyc",
+    "Projects/project2n3/part2-twodigit/__pycache__",
+    "Projects/project2n3/part2-mnist/nnet_cnn.py~",
+    "Projects/project2n3/part2-mnist/mnist_model_fully_connected.pt",
+    "Projects/project2n3/part2-mnist/__pycache__/train_utils.cpython-311.pyc",
+    "Projects/project2n3/part2-mnist/__pycache__",
+    "Images/Pasted image 20250313082818.png",
+    "Images/Pasted image 20250313084602.png",
+    "Images/Pasted image 20250313083154.png",
     "Unit 3/Lecture 11. Recurrent Neural Networks 2.md",
+    "Images/Pasted image 20250308162911.png",
     "Images/Pasted image 20250310083609.png",
     "Unit 3/Lecture 10. Recurrent Neural Networks 1.md",
     "Unit 3/Lecture 8. Introduction to Feedforward Neural Networks.md",
@@ -191,31 +205,18 @@
     "Images/Pasted image 20250306153208.png",
     "Images/Pasted image 20250306152134.png",
     "Images/Pasted image 20250306151639.png",
-    "Images/Pasted image 20250305152656.png",
-    "Images/Pasted image 20250305154722.png",
-    "Images/Pasted image 20250305154203.png",
     "Unit 2/Lecture 7. Recommender Systems.md",
-    "Unit 3",
     "Unit 2/Lecture 5. Linear Regression.md",
     "Unit 0/Vector Algebra.md",
     "Unit 0/Matrix products.md",
     "Unit 2/Lecture 6. Nonlinear Classification.md",
     "Unit 1/Lecture 2. Linear Classifier and Perceptron.md",
-    "Unit 2",
     "Unit 1/Lecture 3. Hinge loss, Margin boundaries and Regularization.md",
     "Unit 1/Lecture 4. Linear classification and Generalisation.md",
     "Unit 0/PDF of a gaussian.md",
     "Unit 0/Planes.md",
-    "Homework helpers/perceptron.ipynb",
-    "Homework helpers/perceptron.py",
-    "Homework helpers",
     "Unit 1/Lecture 1. Introduction to machine learning.md",
     "Unit 0/Probability concepts.md",
-    "Projects/project0/debug.py~",
-    "Projects/project0/main.py~",
-    "Projects/project0/test.py",
-    "Projects/project0/test.pyy",
-    "Projects/requirements.txt",
     "Unit 0/Product and Summation notation.md"
   ]
 }
